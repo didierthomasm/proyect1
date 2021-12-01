@@ -7,14 +7,103 @@
     <title>Primera</title>
 </head>
 <body>
-    <h1>Primera web</h1>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim architecto rerum magnam assumenda asperiores neque facilis quia eligendi, non doloremque! Rem corporis blanditiis laborum exercitationem facere eveniet at consectetur a!</p>
-    ><ul>
+    <header>
+        <h1>Primera web</h1>
+        <nav>
+
+        </nav>
+    </header>
+    <main>
+    <p id="demo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim architecto rerum magnam assumenda asperiores neque facilis quia eligendi, non doloremque! Rem corporis blanditiis laborum exercitationem facere eveniet at consectetur a!</p>
+    <ul>
         <li>1</li>
         <li>2</li>
         <li>3</li>
         <li>4</li>
     </ul>
+    <ol>
+        <li>a</li>
+        <li>b</li>
+        <li>c</li>
+    </ol>
+    <p id="demo2"></p>
+
+    <script>document.write(10%3)</script>
+    <br>
+    <script>document.getElementById("demo2").innerHTML = 5 * 2;</script>
+    <button type="button" onclick="myFunction()">Touch Me</button>
+    <!--<script>window.alert("Meow")</script>
+    <script>alert(44*3)</script>-->
+    <br>
+    <button onclick="this.innerHTML=Date()">The time is?</button>
+    <br>
+    <button onclick="displayDate()">The time is?</button>
+    <p id="demo3"></p>
+    <br>
     <img src="https://www.deustoformacion.com/sites/deustoformacion/files/lenguaje-html5.jpg" width="180" height="120" alt="imagen ejemplo">
+    <br>
+    <a href="https://www.google.com/" target="_blank">Ir a Google</a>
+    <pre>
+    Hago como vaca
+    Hago como pollito
+    Pero ustedes lo que quieren es
+    EL GATO VOLADOR!
+    </pre>
+    <table>
+        <tr>
+            <th>City</th>
+            <th>State</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>Monterrey</td>
+            <td>Nuevo León</td>
+            <td>México</td>
+        </tr>
+        <tr>
+            <td>Veracruz</td>
+            <td>Veracruz</td>
+            <td>México</td>
+        </tr>
+    </table>
+    <br>
+    <form action="">
+        <label for="nombre">Nombre</label><br>
+        <input type="text" id="nombre">
+    </form>
+    <form action="">
+        <input type="radio" id="huey" name="drone" value="didier" checked>Didier
+        <input type="radio" id="duey" name="drone" value="carolina">Carolina
+        <input type="radio" id="wuey" name="drone" value="laura">Laura
+    </form>
+    <br>
+    <form action="">
+        <input type="checkbox" id="ipa" value="ipa" checked>IPA
+        <input type="checkbox" id="stout" value="stout">Stout
+        <input type="checkbox" id="porter" value="porter">Porter
+        <input type="checkbox" id="berliner" value="berliner">Berliner
+    </form>
+    <br>
+    <form action="">
+        <label for="chocolate">Choose a chocolate</label>
+        <select name="chocolate" id="chocolate">
+            <option value="snickers">Snicker's</option>
+            <option value="milkyWay">Milky Way</option>
+            <option value="crunch">Crunch</option>
+        </select><br><br>
+        <input type="submit">        
+    </form>
+    <br>
+    <form action="">
+        <input type="range" id="a" name="a" value="100">
+    </form>
+    <br>
+    <hr>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="myScript.js"></script>
 </body>
 </html>
