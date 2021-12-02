@@ -11,9 +11,40 @@
         <!--Imagen con ruta relativa-->
         <img src="img/goku.jpg" alt="Goku" height="150">
         <h1>Funcionamiento de Forms</h1>
+        <nav>
+            <a href="index.html">Tables</a>
+            <a href="forms.html">Forms</a>
+            <a href="iframes.html">Iframes</a>
+        </nav>
     </header>
+    <br><br>
     <main>
-        <form action=""></form>
+        <form action="">
+            <label for="nombre">Nombre</label><br>
+            <input type="text" name="nombre" id="">
+            <br>
+            <label for="fecha">Fecha de Nacimiento</label><br>
+            <input type="date" name="fecha" id="">
+            <br>
+            <label for="color">Color fav</label><br>
+            <input type="color" name="color" id="">
+            <br>
+            <label for="genero">Genero</label><br>
+            <input type="radio" name="genero" id="">Masculino
+            <input type="radio" name="genero" id="">Femenino
+            <input type="radio" name="genero" id="">Otro 
+            <br>
+            <label for="vehiculo">¿En qué te mueves?</label><br>
+            <select name="vehiculo" id="">
+                <option value="automovil">Automovil</option>
+                <option value="moto">Moto</option>
+                <option value="scooter">Scooter</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Enviar">
+            <br><br>
+            <button type="submit">Grabar</button>
+        </form>
     </main>
     <footer>
         <p>Todos los derechos reservados.</p>
