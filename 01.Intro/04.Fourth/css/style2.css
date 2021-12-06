@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-color: orange;
+    height: 10vh;
+}
+
+aside{
+    background-color: greenyellow;
+    float: left;
+    height: 80vh;
+    width: 20%;
+}
+
+main{
+    background-color: #242480;
+    float: right;
+    height: 80vh;
+    width: 80%;
+}
+
+footer{
+    background-color: plum;
+    bottom: 0;
+    height: 10vh;
+    position: fixed;
+    width: 100%;
+}

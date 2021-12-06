@@ -1,0 +1,38 @@
+body {
+    background-color: lightblue;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18;
+    margin: 0;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagen {
+    height: 150px;
+}
+
+nav a{
+    color: rgb(102, 165, 7);
+    text-decoration: none;
+
+}
+
+nav a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+h1, p, div, nav{
+    text-align: center;
+}
+
+ul li{
+    color: rgb(221, 86, 86);
+}
+
+ul li:nth-child(even){
+    font-style: italic;
+    color: black;
+}
