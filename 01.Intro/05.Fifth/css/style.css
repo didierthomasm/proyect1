@@ -9,6 +9,7 @@ header {
     background-color: #3949ab;
     display: flex;
     justify-content: space-between;
+    height: 10vh;
     padding: 0 5px;
 }
 
@@ -40,4 +41,74 @@ nav a {
 
 nav a:hover{
     background-color: thistle;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+aside, section {
+    height: 80vh;
+}
+
+aside {
+    align-items: center;
+    background-color: #9fa8da ;
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+}
+
+aside a {
+    color: black;
+    font-size: 1.5rem;
+    padding: 9px 0;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+
+aside a:hover   {
+    background-color: #5c6bc0;
+}
+
+section {
+    background-color: #c5cae9;
+    display: flex;
+    flex-flow: row wrap;
+    width: 90%;
+}
+
+article {
+    flex: 1 1 30%;
+    text-align: center;
+}
+
+img {
+    height: 15.35836rem;;
+}
+
+footer {
+    align-items: center;
+    background-color: #3949ab;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 10vh;
+    width: 100%;
+}
+
+p, footer a {
+    color: white;
+    font-size: .8rem;
+} 
+
+p {
+    display: inline;
+    margin: 0;
+}
+
+.marginIzq {
+    margin-left: 5px;
 }
