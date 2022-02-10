@@ -21,8 +21,25 @@ function calcularEdad(){
 }
 
 function cambiarColor(){
-    document.getElementById("cuerpo").style.backgroundColor = "#b2dfdb";//regresar al color original
-    //"#20b2aa";
+    if(document.getElementById("cuerpo").style.backgroundColor == "#add8e6"){        
+        document.getElementById("cuerpo").style.backgroundColor = "#b2dfdb";
+        console.log(document.getElementById("cuerpo").style.backgroundColor);
 }
+    else{
+        document.getElementById("cuerpo").style.backgroundColor = "#add8e6";
+        console.log(document.getElementById("cuerpo").style.backgroundColor);
+}
+
+    // if(document.getElementById("cuerpo").style.backgroundColor = "#20b2aa" == "#20b2aa"){        
+    //     document.getElementById("cuerpo").style.backgroundColor = "#20b2aa";
+    //     console.log(document.getElementById("cuerpo").style.backgroundColor = "#20b2aa");
+    // }
+    // else{
+    //     document.getElementById("cuerpo").style.backgroundColor = "#b2dfdb";
+    //     console.log(document.getElementById("cuerpo").style.backgroundColor = "#b2dfdb");
+    // }
+
+}
+
 
 document.getElementById("calcular").addEventListener("click", calcularEdad);
